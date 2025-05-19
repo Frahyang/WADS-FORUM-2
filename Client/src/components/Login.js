@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
-import axios from "../api/axios"; // Make sure this path is correct
+import axios from "../api/axios";
 import "./SignUp-Login.css";
 
-const Login = ({ onLogin }) => { // <-- Accept onLogin as prop
+const Login = ({ onLogin }) => {
   const navigate = useNavigate();
 
   const [formData, setFormData] = useState({

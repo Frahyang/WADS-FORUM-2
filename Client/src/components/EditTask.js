@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import axios from '../api/axios'; // Make sure you have a centralized Axios instance
+import axios from '../api/axios';
 import './AddTask.css';
 
 export default function EditTask({ currentTask, onClose, refreshTasks }) {

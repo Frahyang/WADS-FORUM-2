@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import axios from '../api/axios'; // Ensure path is correct
+import axios from '../api/axios';
 import defaultProfilePic from '../assets/defaultProfilePic.jpg';
 import './NavBar.css';
 

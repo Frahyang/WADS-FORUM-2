@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import axios from '../api/axios'; // Assuming this is your Axios instance
+import axios from '../api/axios';
 import './AddTask.css';
 
 export default function AddTask({ onClose, refreshTasks }) {
