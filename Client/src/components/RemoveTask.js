@@ -1,5 +1,5 @@
 import React from 'react';
-import axios from '../api/axios'; // Ensure path is correct
+import axios from '../api/axios';
 
 export default function RemoveTask({ tasks, setTasks, showDeleteIcons, setShowDeleteIcons }) {
   const handleDeleteTask = async (taskId) => {

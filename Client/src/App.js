@@ -69,8 +69,8 @@ export default function App() {
 
   return (
     <Routes>
+      <Route path="/signup" element={<SignUp onLogin={() => setIsLoggedIn(true)} />} />
       <Route path="/login" element={<Login onLogin={() => setIsLoggedIn(true)} />} />
-      <Route path="/signup" element={<SignUp onGoogleSignIn={() => setIsLoggedIn(true)} />} />
       <Route
         path="/todolist"
         element={
